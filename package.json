@@ -25,6 +25,7 @@
     "typewriter-effect": "^2.18.2",
     "web-vitals": "^2.1.4"
   },
+  "homepage": "https://farouk19990.github.io/Portfolio./",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
