@@ -2,16 +2,14 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+
 import eoc2024 from "../../Assets/Projects_Images/eoc_2024.png";
 import eoc2024_02 from "../../Assets/Projects_Images/eoc_2024_02.png";
 import eoc2024_03 from "../../Assets/Projects_Images/eoc_2024_03.png";
 import eoc2024_ob from "../../Assets/Projects_Images/eoc2024_ob_01.webp";
+import mlops00 from "../../Assets/Projects_Images/mlops00.png"
+import mlops01 from "../../Assets/Projects_Images/mlops01.png"
+import solu from "../../Assets/Projects_Images/Solu.png"
 
 import Mob00 from "../../Assets/Mall/Mobile App00.png";
 import Mob01 from "../../Assets/Mall/Mobile App01.png";
@@ -53,12 +51,15 @@ function Projects() {
                 eoc2024,
                 eoc2024_ob,
                 eoc2024_02,
-                eoc2024_03
+                eoc2024_03,
+                mlops00,
+                mlops01,
+                solu
               ]}
               isBlog={false}
               title={<>
-              <strong className="purple">
-              End-of-Study Internship – EnterSoft, Sfax (Feb 2024 - Jun 2024)
+              <strong >
+              Classification of vehicle types
               </strong>
               </>}
               description={
@@ -103,7 +104,7 @@ function Projects() {
                 Mob05
               ]}
               isBlog={false}
-              title="Mall of Tunisia – Mobile & Web Application"
+              title={<><strong>Mall of Tunisia – Mobile & Web Application</strong></>}
   description={
     <>
       <ul style={{ paddingLeft: "20px" }}>
@@ -136,7 +137,7 @@ function Projects() {
                 AddCli,DelCli,Fourni,Prod,Devis,ViewDevis,ImpDevis,Profil
               ]}
               isBlog={false}
-              title="Web Invoicing Application"
+              title={<><strong>Web Invoicing Application</strong></>}
               description={
                 <>
                   <ul style={{ paddingLeft: "20px" }}>
