@@ -86,7 +86,7 @@ function Techstack() {
       </Col>
       <Col xs={4} md={12} className="tech-icons">
         <SiExpress />
-        <p style={{ fontSize: 20 }}>Node.js</p>
+        <p style={{ fontSize: 20 }}>Express Js</p>
       </Col>
        
       <Col xs={4} md={12} className="tech-icons">
